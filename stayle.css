@@ -1,0 +1,193 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+
+}
+nav{
+    
+    display:flex;
+    flex-direction: column;
+    background-color:black;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+nav li{
+    font-size: 22px;
+    
+    display: inline;
+    justify-content: space-between;
+    color: rgb(8, 226, 246);
+    
+    margin: 20px;
+    
+
+}
+
+.name{
+    
+    flex-grow: 1;
+    padding: 0 var(padding);
+    display: flex;
+    align-items: center;
+}
+.name h1{
+    font-size: 4.65rem;
+    margin: 1.7rem 0;
+    color: aqua;
+}
+.step2 .btn{
+    background-color: var(--primarycolor);
+    color: var(--lightcolor);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.81rem 1.87rem;
+    border-radius: 30px;
+    transition: 0.4s;
+    border:2px solid var(red) ;
+}
+.btn:hover{
+    background-color:blue ;
+    border: 2px solid var(red);
+}
+.img1 img{
+  
+    
+    margin-left: 700px;
+    margin-top: 10px;
+    
+    
+
+}
+
+/****************************************/
+
+.About{
+    margin: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: vh;
+    width: 1000px;
+
+    background-size: 50px;
+    background-color: gray;
+    
+    
+    
+    font-size: 40px;
+    font-weight: bold;
+    color: aqua;
+    padding: 10px;
+   
+}
+
+/***********************************************************/
+
+
+.Education{
+    margin: 20px;
+    display: flex;
+
+}
+
+.Education .school{
+    margin: 70px;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.Education .img3{
+    display: flex;
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+}
+.Education .university{
+    margin:70px ;
+    font-size: 40px;
+    font-weight: bold;
+}
+/***************************************/
+
+
+.Skills{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    
+}
+.Skills .Skills1{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 70px;
+}
+/***********************************************/
+
+
+
+.project .img5{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+}
+.project .project1{
+
+ font-size: 40px;
+    font-weight: bold;
+    margin: 70px;
+}
+
+/****************************************************/
+.footer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: gray;
+    height: 100px;
+    gap: 100px;
+   
+}
+
+.footer1{
+    height: 50px;
+    width: 50px;
+}
+.footer2{
+    height: 50px;
+    width: 50px;
+}
+.footer3{
+    height: 50px;
+    width: 50px;
+}
+.footer4{
+    height: 50px;
+    width: 50px;
+}
+.phon{
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+.phon1{
+    display: flex;
+}
+
+
+
+
+
+
+
+
