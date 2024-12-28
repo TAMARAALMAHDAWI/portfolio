@@ -4,6 +4,8 @@
     box-sizing: border-box;
     text-decoration: none;
     
+    
+    
 
 }
 nav{
@@ -15,6 +17,7 @@ nav{
     justify-content: center;
     align-items: center;
     
+    
 
 }
 nav li{
@@ -22,12 +25,16 @@ nav li{
     
     display: inline;
     justify-content: space-between;
-    color: rgb(8, 226, 246);
+    color: aqua;
+    
     
     margin: 20px;
     
 
 }
+
+
+
 
 .name{
     
@@ -68,7 +75,7 @@ nav li{
 /****************************************/
 
 .About{
-    margin: 50px;
+    margin: 200px;
 
     display: flex;
     justify-content: center;
@@ -87,12 +94,18 @@ nav li{
     padding: 10px;
    
 }
+.Aboutme{
+    font-size: 100px;
+    align-items: center;
+    margin: 200px;
+    color: aqua;
+}
 
 /***********************************************************/
 
 
 .Education{
-    margin: 20px;
+    margin: 200px;
     display: flex;
 
 }
@@ -114,6 +127,12 @@ nav li{
     font-size: 40px;
     font-weight: bold;
 }
+
+.Education1{
+    font-size: 100px;
+    color: aqua;
+    margin: 200px;
+}
 /***************************************/
 
 
@@ -130,24 +149,56 @@ nav li{
     font-weight: bold;
     margin: 70px;
 }
+.course{
+    font-size: 100px;
+    color: aqua;
+    margin: 200px;
+}
 /***********************************************/
 
 
 
-.project .img5{
+ .img5{
     display: flex;
     height: 500px;
     width: 500px;
-    margin: 50px;
+    margin: 30px;
 }
-.project .project1{
-
- font-size: 40px;
-    font-weight: bold;
-    margin: 70px;
+.project1{
+    font-size: 100px;
+    color: aqua;
+    margin: 200px;
 }
 
-/****************************************************/
+.project2{
+    display: flex;
+}
+.projectlinkedin{
+    display: flex;
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+}
+
+.projectfacbook{
+    display: flex;
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+}
+.projectnetflex{
+    display: flex;
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+}
+
+.mb-3{
+    margin: 100px;
+}
+
+
+/******************************************************/
 .footer{
     align-items: center;
     justify-content: center;
@@ -155,6 +206,7 @@ nav li{
     background-color: gray;
     height: 100px;
     gap: 100px;
+    margin: 50px;
    
 }
 
